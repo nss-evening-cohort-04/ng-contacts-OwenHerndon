@@ -1,3 +1,3 @@
 "use strict";
 
-var app = angular.module("Contacts", []);
+var app = angular.module("ContactApp", []);
