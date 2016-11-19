@@ -8,13 +8,53 @@
 </head>
 <body ng-app="ContactApp">
 
-<h1>ContactApp</h1>
-
 <!-- nav bar two buttons/link -->
+<!-- <nav class="navbar navbar-light bg-faded">
+	<a class="navbar-brand" href="#">Address Book</a>
+		<ul class="nav navbar-nav">
+			<li class="nav-item active">
+				<a class="nav-link" href="#">List View<span class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item">
+      			<a class="nav-link" href="#">Add Contact</a>
+    		</li>
+    		<li class="nav-item">
+      			<a class="nav-link" href="#">My Circles</a>
+    		</li>
+		</ul>
+</nav> -->
+
+<nav>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li class="active"><a href="#">Add</a></li>
+    <li><a href="#">My Circles</a></li>
+    <li><a href="#">Conacts</a></li>
+  </ul>
+</nav>
 
 <!-- div with input fields for first name, last name, email, and phone + add button -->
+<div>
+	<div class="form-group row col-xs-8">
+		<label for="Name" class="col-xs-2 col-form-label">Name</label>
+		<div class="col-xs-4">
+    		<input class="form-control" type="text" value="">
+  		</div>
+  		<label for="example-tel-input" class="col-xs-2 col-form-label">Telephone</label>
+  		<div class="col-xs-4">
+    		<input class="form-control" type="tel" value="1-(555)-555-5555">
+  		</div>
+  		 <label for="example-email-input" class="col-xs-2 col-form-label">Email</label>
+  		<div class="col-xs-4">
+    		<input class="form-control" type="email" value="bootstrap@example.com">
+  		</div>
+	</div>
+</div>
 
 <!-- div with list display + delete buttons -->
+<div>
+
+</div>
 
 <script src="https://www.gstatic.com/firebasejs/3.6.1/firebase.js"></script>
 <script type="text/javascript" src="/lib/bower_components/jquery/dist/jquery.min.js"></script>
